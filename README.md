@@ -1,7 +1,7 @@
 # BungeeCord 插件开发中文教程
 ## 教程目录
-- [BungeeCord插件消息频道(BungeeCord Plugin Messaging Channel)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord%E6%8F%92%E4%BB%B6%E6%B6%88%E6%81%AF%E9%80%9A%E9%81%93(BungeeCord-Plugin-Messaging-Channel))    
-喜欢的话加个Star吧，欢迎贡献翻译。
+- [BungeeCord插件消息频道(BungeeCord Plugin Messaging Channel)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord%E6%8F%92%E4%BB%B6%E6%B6%88%E6%81%AF%E9%80%9A%E9%81%93(BungeeCord-Plugin-Messaging-Channel))
+##### 喜欢的话加个Star吧，欢迎贡献翻译。
 ## 版权声明
 本作品翻译者为耗子
 
