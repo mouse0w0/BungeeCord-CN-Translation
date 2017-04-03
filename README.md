@@ -1,7 +1,7 @@
 # BungeeCord 插件开发中文教程
 ## 教程目录
 - [BungeeCord插件消息频道(BungeeCord Plugin Messaging Channel)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord%E6%8F%92%E4%BB%B6%E6%B6%88%E6%81%AF%E9%A2%91%E9%81%93(BungeeCord-Plugin-Messaging-Channel))     
-- [BungeeCord事件API(BungeeCord-Event-API)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord-%E4%BA%8B%E4%BB%B6-API(BungeeCord-Event-API))
+- [BungeeCord事件API(BungeeCord Event API)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord-%E4%BA%8B%E4%BB%B6-API(BungeeCord-Event-API))
 ##### 喜欢的话加个Star吧，欢迎贡献翻译。
 ## 版权声明
 
