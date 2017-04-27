@@ -10,6 +10,7 @@
 - [常见的 BungeeCord 开发问题(Common BungeeCord Development Pitfalls)](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/%E5%B8%B8%E8%A7%81%E7%9A%84-BungeeCord-%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98(Common-BungeeCord-Development-Pitfalls))
 - [BungeeCord 记分板 (无 API)(BungeeCord Scoreboard (Not API))](https://github.com/mousesrc/BungeeCordChineseTutorial/wiki/BungeeCord-%E8%AE%B0%E5%88%86%E6%9D%BF-(%E6%97%A0-API)(BungeeCord-Scoreboard-(Not-API)))
 ##### 喜欢的话加个Star吧，本人不才，欢迎指正。
+##### [原教程链接](https://www.spigotmc.org/wiki/bungeecord-plugin-development/)
 ## 版权声明
 
 ![[http://creativecommons.org/licenses/by-sa/4.0/](知识共享许可协议)](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
