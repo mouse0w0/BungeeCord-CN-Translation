@@ -13,15 +13,37 @@ article: false
 ## 设置你的项目
 本教程仅涵盖 IntelliJ IDEA，但是其他的IDE应该也是相似的步骤。
 
-首先打开你的IDE，创建一个新的项目， 然后选择Maven。你的界面应该类似于这样：
+首先打开你的IDE，创建一个新项目，然后选择Maven。你的界面应该类似于这样：
 ![新建项目](./create-your-first-bungeecord-plugin/1.png)
 
+::: details Eclipse用户所需的操作
+创建一个新项目：
+
+![新建项目](./create-your-first-bungeecord-plugin/eclipse-new-1.png)
+
+选择Maven：
+
+![选择Maven](./create-your-first-bungeecord-plugin/eclipse-new-2.png)
+:::
+
 点击下一步（Next），然后你将会看到这个界面：
-![新建项目](./create-your-first-bungeecord-plugin/2.png)
+![新建Maven项目](./create-your-first-bungeecord-plugin/2.png)
+
+::: details Eclipse用户所需的操作
+![新建Maven项目](./create-your-first-bungeecord-plugin/eclipse-new-3.png)
+:::
 
 在 GroupId 中，输入你的 Java 包名 （例如 *me.username*）。在 ArtifactId 中， 输入你的插件名称（接下来我们使用 TestPlugin 作为例子）。暂时不用理会 Version，点击下一步（Next）。将你的项目名称更改为你的插件名称，然后点击 "完成（Finish）"。
 
 IDE 将会打开一个名为 *pom.xml* 的文件。现在我们要添加一些内容到其中。在 `</project>` 之前添加以下内容：
+
+::: details Eclipse用户所需的操作
+你需要将下列代码中的`<dependencies>`中的依赖项放入你的*pom.xml*文件中的`<dependencies>`下。
+
+![新建项目](./create-your-first-bungeecord-plugin/eclipse-new-4.png)
+
+你不需要知道为什么要这样做，但需要你在Eclipse中编辑它。
+:::
 
 ```xml
     <repositories>
@@ -62,6 +84,7 @@ IDE 将会打开一个名为 *pom.xml* 的文件。现在我们要添加一些�
         </dependency>
     </dependencies>
 ```
+
 这将为你的项目添加 BungeeCord 依赖。如果你使用的是 IntelliJ，它将会询问你是否要导入 *pom.xml* 文件的更改。导入它们。如果它询问语言版本被改变，允许它重载项目。
 
 ## 创建你的主类
