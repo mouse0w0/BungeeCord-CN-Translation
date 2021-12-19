@@ -3,6 +3,8 @@ article: false
 ---
 # 《BungeeCord插件开发》中文翻译
 
+![](https://img.shields.io/badge/license-CC--BY--SA--4.0-green)
+
 ## 捐助译者
 翻译本篇教程付出了译者大量的业余时间。如果本教程对你有帮助的话，恳请点击下方的链接捐助译者。
 
