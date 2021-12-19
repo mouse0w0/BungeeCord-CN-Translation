@@ -1,0 +1,11 @@
+{
+  "name": "bungeecord-cn-translation",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-theme-vdoing": "^1.8.3"
+  }
+}
