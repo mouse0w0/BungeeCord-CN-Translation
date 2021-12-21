@@ -10,6 +10,10 @@ module.exports = {
     theme: 'vdoing',
     themeConfig: {
         repo: 'mouse0w0/BungeeCord-CN-Translation',
+        docsDir: 'docs',
+        docsBranch: 'main',
+        editLinks: true,
+        editLinkText: '编辑此页面',
         nav,
         sidebar,
         sidebarDepth: 2,
@@ -20,8 +24,6 @@ module.exports = {
         category: false,
         tag: false,
         archive: false,
-        rightMenuBar: false,
-        editLinks: true,
-        editLinkText: '编辑此页面'
+        rightMenuBar: false
     }
 }
