@@ -52,7 +52,7 @@ public class MyPlugin extends JavaPlugin implements PluginMessageListener {
 
   player.sendPluginMessage(this, "BungeeCord", out.toByteArray());
 ```
-注意，你不能直接在玩家加入事件 (PlayerJoinEvent)发送插件消息。你必须有一点延迟。
+注意，你不能直接在玩家加入事件（PlayerJoinEvent）发送插件消息。你必须有一点延迟。
 
 ## BungeeCord 频道约定
 ### 连接到服务器（Connect）

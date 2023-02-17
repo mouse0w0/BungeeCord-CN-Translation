@@ -14,7 +14,7 @@ BungeeCord 有着丰富的事件（Event） API，类似于Bukkit的事件系统
 public class Events implements Listener
 ```
 
-如果你在你的类中实现了 Listener，你就可以在启动监听所有的 BungeeCord 事件([点击查看所有事件列表](http://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/package-frame.html))。
+如果你在你的类中实现了 Listener，你就可以在启动监听所有的 BungeeCord 事件（[点击查看所有事件列表](https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/package-summary.html)）。
 
 举个例子，我们使用 BungeeCord 的 PostLoginEvent（登录后事件）。让我们来添加我们的第一个监听器吧:
 ```java

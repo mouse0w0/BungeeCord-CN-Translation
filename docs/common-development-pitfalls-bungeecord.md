@@ -22,7 +22,7 @@ article: false
 
 当你不能使用 BungeeCord 线程调度器来运行异步任务的情况下，你有以下两个选择：
 
-1. 如果 (外部) API 有能力提供一个 Executor 或 ExecutorService，那么提供它在你的
+1. 如果（外部）API 有能力提供一个 Executor 或 ExecutorService，那么提供它在你的
 Plugin.getExecutorService()。
 
 2. 在异步任务中创建对象。

@@ -12,7 +12,7 @@ BungeeCord 提供一个命令接口，类似于 Bukkit。本篇教程中，我�
 ## 构造方法
 
 Command 类有两个构造方法：一个简单的只有指令名的构造方法，和一个额外添加了权限和别名的构造方法。我们现在使用第一个。添加以下代码到你的类中：
-```
+```java
   public HelloWorldCommand() {
       super("helloworld");
   }
@@ -22,7 +22,7 @@ Command 类有两个构造方法：一个简单的只有指令名的构造方法
 ## 执行方法
 
 现在我们可以为指令添加实际的功能了。添加以下代码到你的类中：
-```
+```java
   @Override
   public void execute(CommandSender commandSender, String[] strings) {
       commandSender.sendMessage(new ComponentBuilder("Hello world!").color(ChatColor.GREEN).create());
@@ -33,7 +33,7 @@ Command 类有两个构造方法：一个简单的只有指令名的构造方法
 ## 注册指令
 
 添加以下代码到 onEnable() 方法：
-```
+```java
 getProxy().getPluginManager().registerCommand(this, new HelloWorldCommand());
 ```
 现在你已经创建了你自己的指令。与 Bukkit 不同的是，BungeeCord 不要求将指令添加至 plugin.yml。
