@@ -56,7 +56,7 @@ public class MyPlugin extends JavaPlugin implements PluginMessageListener {
 
 ## BungeeCord 频道约定
 ### 连接到服务器（Connect）
-使一个玩家连接到指定服务器.
+使一个玩家连接到指定服务器。
 
 #### 参数 （Arguments）
 - （String）你希望连接到的服务器名称，必须要在 BungeeCord 的配置文件（config.yml）内设置。
@@ -73,7 +73,7 @@ out.writeUTF("pvp");
 无
 
 ### 使玩家连接到服务器（ConnectOther）
-使一个指定玩家连接到指定服务器
+使一个指定玩家连接到指定服务器。
 
 #### 参数
 
@@ -113,7 +113,7 @@ int port = in.readInt();
 ```
 
 ### 获取玩家数量（PlayerCount）
-获取某个服务器或者所有服务器的玩家数量
+获取某个服务器或者所有服务器的玩家数量。
 
 #### 参数
 - （String） 你希望获取玩家数量的服务器名称，如果你希望获取所有服务器的玩家数量，使用 "ALL"
@@ -134,7 +134,7 @@ int playercount = in.readInt();
 ```
 
 ### 获取玩家列表（PlayerList）
-获取某个服务器或者所有服务器的玩家名称
+获取某个服务器或者所有服务器的玩家名称。
 
 #### 参数
 - （String） 你希望获取玩家名称的服务器名词，如果你希望获取全部服务器的玩家名称，使用 "ALL"
@@ -154,7 +154,7 @@ String[] playerList = in.readUTF().split(", ");
 ```
 
 ### 获取所有服务器名称（GetServers）
-获取所有服务器的名称, 必须要在 BungeeCord 的配置文件（config.yml）内设置
+获取所有服务器的名称, 必须要在 BungeeCord 的配置文件（config.yml）内设置。
 
 #### 参数
 无
@@ -173,7 +173,7 @@ String[] serverList = in.readUTF().split(", ");
 ```
 
 ### 发送消息（Message）
-向指定玩家发送一个消息（比如聊天消息）
+向指定玩家发送一个消息（比如聊天消息）。
 
 #### 参数
 - （String）需要发送消息的玩家名称
@@ -192,7 +192,7 @@ out.writeUTF(ChatColor.RED + "Congrats, you just won 1$!");
 无
 
 ### 获取服务器名称（GetServer）
-获得当前服务器名称，必须在 BungeeCord 的配置文件（config.yml）内设置
+获得当前服务器名称，必须在 BungeeCord 的配置文件（config.yml）内设置。
 
 #### 参数
 无
@@ -211,7 +211,7 @@ String servername = in.readUTF();
 ```
 
 ### 发送自定义插件消息（Forward）
-发送一个自定义插件消息（Custom plugin message）到指定服务器。这是最有效的方式之一。
+发送一个自定义插件消息到指定服务器。这是最有效的方式之一。
 
 **记住，发送和接受服务器都需要有一个玩家在线。**
 
@@ -252,7 +252,7 @@ short somenumber = msgin.readShort();
 ```
 
 ### 发送自定义插件消息到玩家（ForwardToPlayer）
-发送自定义插件消息（Custom plugin message）到指定玩家
+发送自定义插件消息到指定玩家。
 
 #### 参数
 - （String）接受消息的玩家名称
@@ -291,7 +291,7 @@ short somenumber = msgin.readShort();
 ```
 
 ### 获取玩家的UUID（UUID）
-获取该玩家的UUID
+获取该玩家的UUID。
 
 #### 参数
 无
@@ -310,7 +310,7 @@ String uuid = in.readUTF();
 ```
 
 ### 获取指定玩家的UUID（UUIDOther）
-获取指定玩家的UUID
+获取指定玩家的UUID。
 
 #### 参数
 - （String）你需要获取UUID的玩家的名称
@@ -331,7 +331,7 @@ String uuid = in.readUTF();
 ```
 
 ### 获取服务器IP（ServerIP）
-获取指定服务器在群组中的IP
+获取指定服务器在群组中的IP。
 
 #### 参数
 - （String） 需要获取IP的服务器名称
@@ -353,7 +353,7 @@ int port = in.readUnsignedShort();
 ```
 
 ### 踢出玩家（KickPlayer）
-从整个服务器踢出玩家
+从整个服务器踢出玩家。
 
 #### 参数
 - （String）玩家名
